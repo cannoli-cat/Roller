@@ -5,3 +5,18 @@ api-version: '1.20'
 authors:
   - cannoli_cat
   - SnippleRifsky
+commands:
+  roll:
+    description: Roll die!
+    usage: /<command> <amount> <type> <limbExclusions>
+  broll:
+    description: Roll die and broadcast it for all to see!
+    usage: /<command> <amount> <type> <limbExclusions>
+  showrolls:
+    description: Shows all previous player rolls.
+    permission: roll.show
+    usage: /<command>
+  clearrolls:
+    description: Clears all previous player rolls in the list.
+    permission: roll.clear
+    usage: /<command>
