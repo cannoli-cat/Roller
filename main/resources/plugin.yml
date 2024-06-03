@@ -1,0 +1,7 @@
+name: Roller
+version: '${project.version}'
+main: cannolicat.roller.Roller
+api-version: '1.20'
+authors:
+  - cannoli_cat
+  - SnippleRifsky
